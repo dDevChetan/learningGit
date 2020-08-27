@@ -1,3 +1,7 @@
 body{
-    background-image: url("image/abstract1.jpg");
+    background-color: aqua;
+}
+
+h1{
+    color: blue;
 }
