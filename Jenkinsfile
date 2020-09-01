@@ -24,7 +24,6 @@ pipeline {
     stage('Notify') {
       steps {
         echo 'Notifying...'
-        mail bcc: '', body: 'THIS IS A TEST', cc: '', from: '', replyTo: '', subject: 'This is a test', to: 'serpentkekole@gmail.com'
       }
     }
   }
