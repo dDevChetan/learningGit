@@ -6,11 +6,24 @@ pipeline {
         echo 'Building...'
       }
     }
-    stage('Test') {
-      steps {
-        echo 'Testing...'
+    stage('Test Firefox') {
+      parallel {
+        stage('Test Firefox') {
+          steps {
+            echo 'Testing Firefox'
+          }
+        }
+        stage('Test Chrome') {
+          steps {
+            echo 'Testing Chrome'
+          }
+        }
+        stage('Test Edge') {
+          steps {
+            echo 'Testing Edge'
+          }
+        }
       }
-    }
     }
     stage('Deploy') {
       steps {
@@ -19,5 +32,3 @@ pipeline {
     }
   }
 }
-
-
