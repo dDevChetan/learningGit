@@ -1,9 +1,10 @@
 body{
-    background-color: aqua;
+    background-color: grey;
 }
 
 h1{
-    color: blue;
+    color: black;
+    font-size: larger;
 }
 
 #name1{
@@ -11,5 +12,5 @@ h1{
 }
 
 #name0{
-    color: blueviolet;
+    color:white;
 }
