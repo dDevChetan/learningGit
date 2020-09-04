@@ -26,3 +26,9 @@ h1{
 .contents{
     color:white;
 }
+
+#notify{
+    padding-left: 40%;
+    font-size: medium;
+    color: red;    
+}
