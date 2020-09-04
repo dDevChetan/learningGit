@@ -1,1 +1,1 @@
-document.writeln(`{<br>}<p>This is just a test</p>`);
+document.writeln(`<br><p>This is just a test</p>`);
